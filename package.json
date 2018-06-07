@@ -1,0 +1,19 @@
+{
+  "name": "picasso.css",
+  "version": "1.0.0",
+  "description": "CSS helpers",
+  "style": "/dist/build.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frangeris/picasso.css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frangeris/picasso.css/issues"
+  },
+  "homepage": "https://github.com/frangeris/picasso.css#readme"
+}
