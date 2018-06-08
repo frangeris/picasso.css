@@ -1,18 +1,26 @@
 // functions
-.generate(@attr, @x: undef, @y: undef, @n: 10, @i: 1) when (@i =< @n) {
+.space(@attr, @x: undef, @y: undef, @n: 10, @i: 1) when (@i =< @n) {
   &-@{i} when (@x = undef) and (@y = undef) {
-    @{attr}: (round(@i * 0.25em, 2) / @n);
+    @{attr}: (@i * 0.25em);
   }
 
   &-@{i} when not (@x = undef) {
-    @{attr}: (round(@i * 0.25em, 2) / @n) @x;
+    @{attr}: (@i * 0.25em) @x;
   }
 
   &-@{i} when not (@y = undef) {
-    @{attr}: @y (round(@i * 0.25em, 2) / @n);
+    @{attr}: @y (@i * 0.25em);
   }
 
-  .generate(@attr, @x, @y, @n, (@i + 1));
+  .space(@attr, @x, @y, @n, (@i + 1));
+}
+
+.size(@prefix, @attr, @n: 40, @i: 0) when (@i =< @n) {
+  @count: (@i * 25);
+  .@{prefix}-@{count} {
+    @{attr}: unit(@count, px);
+  }
+  .size(@prefix, @attr, @n, (@i + 1));
 }
 
 // globals
