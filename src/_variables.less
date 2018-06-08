@@ -1,2 +1,19 @@
-// Globals
-@padding:               15em;
+// functions
+.generate(@attr, @x: undef, @y: undef, @n: 10, @i: 1) when (@i =< @n) {
+  &-@{i} when (@x = undef) and (@y = undef) {
+    @{attr}: (round(@i * 0.25em, 2) / @n);
+  }
+
+  &-@{i} when not (@x = undef) {
+    @{attr}: (round(@i * 0.25em, 2) / @n) @x;
+  }
+
+  &-@{i} when not (@y = undef) {
+    @{attr}: @y (round(@i * 0.25em, 2) / @n);
+  }
+
+  .generate(@attr, @x, @y, @n, (@i + 1));
+}
+
+// globals
+@padding:               2em;
