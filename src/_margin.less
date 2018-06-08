@@ -1,27 +1,34 @@
 .mar {
   margin: @margin;
+  .generate(margin);
 }
 
 .mar-top {
   margin-top: @margin;
+  .generate(margin-top);
 }
 
 .mar-lef {
   margin-left: @margin;
+  .generate(margin-left);
 }
 
 .mar-rig {
   margin-right: @margin;
+  .generate(margin-right);
 }
 
 .mar-bot {
   margin-bottom: @margin;
+  .generate(margin-bottom);
 }
 
 .mar-y {
   margin: @margin 0;
+  .generate(margin, 0);
 }
 
 .mar-x {
   margin: 0 @margin;
+  .generate(margin, undef, 0);
 }
