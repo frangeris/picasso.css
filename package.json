@@ -4,8 +4,7 @@
   "description": "CSS helpers",
   "style": "/dist/build.css",
   "scripts": {
-    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css"
   },
   "repository": {
     "type": "git",
