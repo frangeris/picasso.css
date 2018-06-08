@@ -4,7 +4,8 @@
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
   "scripts": {
-    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.min.css --clean-css=\"--s1 --advanced --compatibility=ie8\""
+    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css",
+    "minify": "./node_modules/.bin/cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,8 @@
   },
   "homepage": "https://github.com/frangeris/picasso.css#readme",
   "devDependencies": {
+    "clean-css-cli": "^4.1.11",
     "less": "^3.0.4"
   },
-  "dependencies": {
-    "less-plugin-clean-css": "^1.5.1"
-  }
+  "dependencies": {}
 }
