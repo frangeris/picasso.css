@@ -21,3 +21,7 @@
   }
   .size(@prefix, @attr, @n, (@i + 1));
 }
+
+.column-width(@n) {
+  width: @column-width * @n - (@column-margin * (@total-columns - @n) / @total-columns);
+}
