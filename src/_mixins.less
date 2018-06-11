@@ -1,13 +1,13 @@
 .space(@attr, @x: undef, @y: undef, @n: 10, @i: 1) when (@i =< @n) {
-  &-@{i} when (@x = undef) and (@y = undef) {
+  &\:@{i} when (@x = undef) and (@y = undef) {
     @{attr}: (@i * 0.25em);
   }
 
-  &-@{i} when not (@x = undef) {
+  &\:@{i} when not (@x = undef) {
     @{attr}: (@i * 0.25em) @x;
   }
 
-  &-@{i} when not (@y = undef) {
+  &\:@{i} when not (@y = undef) {
     @{attr}: @y (@i * 0.25em);
   }
 
@@ -16,7 +16,7 @@
 
 .size(@prefix, @attr, @n: 40, @i: 0) when (@i =< @n) {
   @count: (@i * 25);
-  .@{prefix}-@{count} {
+  .@{prefix}\:@{count} {
     @{attr}: unit(@count, px);
   }
   .size(@prefix, @attr, @n, (@i + 1));
