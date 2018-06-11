@@ -1,6 +1,6 @@
 {
   "name": "picasso.css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
   "scripts": {
