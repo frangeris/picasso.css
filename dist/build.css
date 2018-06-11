@@ -56,6 +56,18 @@
 .grid .row .col\:2-3 {
   width: 65.33333333%;
 }
+.align-center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-justify {
+  text-align: justify;
+}
 .self-center {
   margin: 0 auto;
   right: 0;
