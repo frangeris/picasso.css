@@ -68,6 +68,9 @@
 .align\:justify {
   text-align: justify;
 }
+.align:\:top {
+  vertical-align: top;
+}
 .self-center {
   margin: 0 auto;
   right: 0;
