@@ -73,6 +73,27 @@
   right: 0;
   left: 0;
 }
+.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.table {
+  display: table;
+}
+.table.row {
+  display: table-row;
+}
+.table.cell {
+  display: table-cell;
+}
 .container {
   max-width: 992px;
 }
