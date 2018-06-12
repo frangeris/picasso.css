@@ -693,13 +693,13 @@
   bottom: auto;
   left: auto;
 }
-.float.right {
+.float\:right {
   float: right;
 }
-.float.left {
+.float\:left {
   float: left;
 }
-.float.none {
+.float\:none {
   float: none;
 }
 .clearfix::after {
