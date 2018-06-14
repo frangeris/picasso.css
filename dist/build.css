@@ -154,34 +154,34 @@
 .align\:baseline {
   align-items: baseline;
 }
-.self\:-auto {
+.self\:auto {
   align-self: auto;
 }
-.self\:-start {
+.self\:start {
   align-self: flex-start;
 }
-.self\:-center {
+.self\:center {
   align-self: center;
 }
-.self\:-end {
+.self\:end {
   align-self: flex-end;
 }
-.self\:-stretch {
+.self\:stretch {
   align-self: stretch;
 }
-.justify\:-start {
+.justify\:start {
   justify-content: flex-start;
 }
-.justify\:-center {
+.justify\:center {
   justify-content: center;
 }
-.justify\:-end {
+.justify\:end {
   justify-content: flex-end;
 }
-.justify\:-between {
+.justify\:between {
   justify-content: space-between;
 }
-.justify\:-around {
+.justify\:around {
   justify-content: space-around;
 }
 .pad {
