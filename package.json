@@ -4,7 +4,7 @@
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
   "scripts": {
-    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css & ./node_modules/.bin/cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8"
+    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css && ./node_modules/.bin/cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8"
   },
   "repository": {
     "type": "git",
