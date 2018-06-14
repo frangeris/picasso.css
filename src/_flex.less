@@ -1,124 +1,130 @@
 .flex {
   display: flex;
 
-  &.initial {
+  &\:initial {
     flex: initial;
   }
 
-  &.auto {
+  &\:auto {
     flex: auto;
   }
 
-  &.none {
+  &\:none {
     flex: none;
   }
 
-  &.grow {
+  &\:grow {
     flex-grow: 1;
   }
 
-  &.shrink {
+  &\:shrink {
     flex-shrink: 1;
   }
 
-  &.no-grow	{
+  &\:no-grow	{
     flex-grow: 0;
   }
 
-  &.no-shrink	{
+  &\:no-shrink	{
     flex-shrink: 0;
-  }
-
-  &.wrap {
-    flex-wrap: wrap;
-    &.reverse {
-      flex-wrap: wrap-reverse;
-    }
-  }
-
-  &.no-wrap {
-  	flex-wrap: no-wrap;
   }
 
   &.fit {
     flex: 1;
   }
 
-  &.row {
-    flex-direction: row;
-    &.reverse {
-      flex-direction: row-reverse;
-    }
-  }
-
-  &.column {
-    flex-direction: column;
-    &.reverse {
-      flex-direction: column-reverse;
-    }
-  }
-
   &.inline {
     display: inline-flex;
   }
+}
 
-  &.align-stretch	{
+.wrap {
+  flex-wrap: wrap;
+  &\:reverse {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+.row {
+  flex-direction: row;
+  &\:reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.column {
+  flex-direction: column;
+  &\:reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.no-wrap {
+  flex-wrap: no-wrap;
+}
+
+.align {
+  &\:stretch	{
     align-items: stretch;
   }
 
-  &.align-start {
+  &\:start {
     align-items: flex-start;
   }
 
-  &.align-center {
+  &\:center {
     align-items: center;
   }
 
-  &.align-end {
+  &\:end {
     align-items: flex-end;
   }
 
-  &.align-baseline {
+  &\:baseline {
     align-items: baseline;
   }
+}
 
-  &.self-auto {
+.self {
+  &\:auto {
     align-self: auto;
   }
 
-  &.self-start {
+  &\:start {
     align-self: flex-start;
   }
 
-  &.self-center {
+  &\:center {
     align-self: center;
   }
 
-  &.self-end {
+  &\:end {
     align-self: flex-end;
   }
 
-  &.self-stretch {
+  &\:stretch {
     align-self: stretch;
   }
+}
 
-  &.justify-start	{
+.justify {
+  &\:start	{
     justify-content: flex-start;
   }
 
-  &.justify-center {
+  &\:center {
     justify-content: center;
   }
 
-  &.justify-end {
+  &\:end {
     justify-content: flex-end;
   }
 
-  &.justify-between {
+  &\:between {
     justify-content: space-between;
   }
 
-  &.justify-around {
+  &\:around {
     justify-content: space-around;
   }
 }

@@ -56,26 +56,6 @@
 .grid .col\:2-3 {
   width: 65.33333333%;
 }
-.align\:center {
-  text-align: center;
-}
-.align\:left {
-  text-align: left;
-}
-.align\:right {
-  text-align: right;
-}
-.align\:justify {
-  text-align: justify;
-}
-.align:\:top {
-  vertical-align: top;
-}
-.self-center {
-  margin: 0 auto;
-  right: 0;
-  left: 0;
-}
 .block {
   display: block;
 }
@@ -97,6 +77,26 @@
 .table.cell {
   display: table-cell;
 }
+.text\:center {
+  text-align: center;
+}
+.text\:left {
+  text-align: left;
+}
+.text\:right {
+  text-align: right;
+}
+.text\:justify {
+  text-align: justify;
+}
+.text:\:top {
+  vertical-align: top;
+}
+.self-center {
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
 .container {
   max-width: 992px;
 }
@@ -115,97 +115,97 @@
 .flex {
   display: flex;
 }
-.flex.initial {
+.flex\:initial {
   flex: initial;
 }
-.flex.auto {
+.flex\:auto {
   flex: auto;
 }
-.flex.none {
+.flex\:none {
   flex: none;
 }
-.flex.grow {
+.flex\:grow {
   flex-grow: 1;
 }
-.flex.shrink {
+.flex\:shrink {
   flex-shrink: 1;
 }
-.flex.no-grow {
+.flex\:no-grow {
   flex-grow: 0;
 }
-.flex.no-shrink {
+.flex\:no-shrink {
   flex-shrink: 0;
-}
-.flex.wrap {
-  flex-wrap: wrap;
-}
-.flex.wrap.reverse {
-  flex-wrap: wrap-reverse;
-}
-.flex.no-wrap {
-  flex-wrap: no-wrap;
 }
 .flex.fit {
   flex: 1;
 }
-.flex.row {
-  flex-direction: row;
-}
-.flex.row.reverse {
-  flex-direction: row-reverse;
-}
-.flex.column {
-  flex-direction: column;
-}
-.flex.column.reverse {
-  flex-direction: column-reverse;
-}
 .flex.inline {
   display: inline-flex;
 }
-.flex.align-stretch {
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap\:reverse {
+  flex-wrap: wrap-reverse;
+}
+.row {
+  flex-direction: row;
+}
+.row\:reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  flex-direction: column;
+}
+.column\:reverse {
+  flex-direction: column-reverse;
+}
+.no-wrap {
+  flex-wrap: no-wrap;
+}
+.align\:stretch {
   align-items: stretch;
 }
-.flex.align-start {
+.align\:start {
   align-items: flex-start;
 }
-.flex.align-center {
+.align\:center {
   align-items: center;
 }
-.flex.align-end {
+.align\:end {
   align-items: flex-end;
 }
-.flex.align-baseline {
+.align\:baseline {
   align-items: baseline;
 }
-.flex.self-auto {
+.self\:auto {
   align-self: auto;
 }
-.flex.self-start {
+.self\:start {
   align-self: flex-start;
 }
-.flex.self-center {
+.self\:center {
   align-self: center;
 }
-.flex.self-end {
+.self\:end {
   align-self: flex-end;
 }
-.flex.self-stretch {
+.self\:stretch {
   align-self: stretch;
 }
-.flex.justify-start {
+.justify\:start {
   justify-content: flex-start;
 }
-.flex.justify-center {
+.justify\:center {
   justify-content: center;
 }
-.flex.justify-end {
+.justify\:end {
   justify-content: flex-end;
 }
-.flex.justify-between {
+.justify\:between {
   justify-content: space-between;
 }
-.flex.justify-around {
+.justify\:around {
   justify-content: space-around;
 }
 .pad {
