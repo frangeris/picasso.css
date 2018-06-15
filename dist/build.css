@@ -92,6 +92,27 @@
 .text:\:top {
   vertical-align: top;
 }
+.transform\:uppercase {
+  text-transform: uppercase;
+}
+.transform\:capitalize {
+  text-transform: capitalize;
+}
+.transform\:lowercase {
+  text-transform: lowercase;
+}
+.transform\:inherit {
+  text-transform: inherit;
+}
+.transform\:initial {
+  text-transform: initial;
+}
+.transform\:none {
+  text-transform: none;
+}
+.transform\:unset {
+  text-transform: unset;
+}
 .self-center {
   margin: 0 auto;
   right: 0;
