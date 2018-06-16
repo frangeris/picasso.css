@@ -157,11 +157,11 @@
 .flex\:no-shrink {
   flex-shrink: 0;
 }
-.flex.fit {
-  flex: 1;
-}
-.flex.inline {
+.inline {
   display: inline-flex;
+}
+.fit {
+  flex: 1;
 }
 .wrap {
   flex-wrap: wrap;
