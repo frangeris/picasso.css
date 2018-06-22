@@ -76,9 +76,6 @@
 .cursor\:text:hover {
   cursor: text;
 }
-.cursor\:url:hover {
-  cursor: url(myBall.cur), auto;
-}
 .cursor\:se-resize:hover {
   cursor: se-resize;
 }
