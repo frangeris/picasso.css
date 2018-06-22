@@ -1,3 +1,105 @@
+.cursor\:alias:hover {
+  cursor: alias;
+}
+.cursor\:all-scroll:hover {
+  cursor: all-scroll;
+}
+.cursor\:auto:hover {
+  cursor: auto;
+}
+.cursor\:cell:hover {
+  cursor: cell;
+}
+.cursor\:context-menu:hover {
+  cursor: context-menu;
+}
+.cursor\:col-resize:hover {
+  cursor: col-resize;
+}
+.cursor\:copy:hover {
+  cursor: copy;
+}
+.cursor\:crosshair:hover {
+  cursor: crosshair;
+}
+.cursor\:default:hover {
+  cursor: default;
+}
+.cursor\:e-resize:hover {
+  cursor: e-resize;
+}
+.cursor\:ew-resize:hover {
+  cursor: ew-resize;
+}
+.cursor\:grab:hover {
+  cursor: grab;
+}
+.cursor\:grabbing:hover {
+  cursor: grabbing;
+}
+.cursor\:help:hover {
+  cursor: help;
+}
+.cursor\:move:hover {
+  cursor: move;
+}
+.cursor\:n-resize:hover {
+  cursor: n-resize;
+}
+.cursor\:ne-resize:hover {
+  cursor: ne-resize;
+}
+.cursor\:nw-resize:hover {
+  cursor: nw-resize;
+}
+.cursor\:no-drop:hover {
+  cursor: no-drop;
+}
+.cursor\:none:hover {
+  cursor: none;
+}
+.cursor\:not-allowed:hover {
+  cursor: not-allowed;
+}
+.cursor\:not-allowed:hover {
+  cursor: not-allowed;
+}
+.cursor\:pointer:hover {
+  cursor: pointer;
+}
+.cursor\:progress:hover {
+  cursor: progress;
+}
+.cursor\:row-resize:hover {
+  cursor: row-resize;
+}
+.cursor\:text:hover {
+  cursor: text;
+}
+.cursor\:url:hover {
+  cursor: url(myBall.cur), auto;
+}
+.cursor\:se-resize:hover {
+  cursor: se-resize;
+}
+.cursor\:sw-resize:hover {
+  cursor: sw-resize;
+}
+.cursor\:s-resize:hover {
+  cursor: s-resize;
+}
+.cursor\:w-resize:hover {
+  cursor: w-resize;
+}
+.cursor\:wait:hover {
+  cursor: wait;
+}
+.cursor\:zoom-in:hover {
+  cursor: zoom-in;
+}
+.cursor\:zoom-out:hover {
+  cursor: zoom-out;
+}
 .block {
   display: block;
 }
