@@ -1476,6 +1476,9 @@
 .width\:fit {
   width: 100%;
 }
+.width\:full {
+  width: 100vh;
+}
 .width\:0 {
   width: 0px;
 }
@@ -1600,7 +1603,10 @@
   width: 1000px;
 }
 .height\:fit {
-  height: 100%;
+  width: 100%;
+}
+.height\:full {
+  width: 100vh;
 }
 .height\:0 {
   height: 0px;
