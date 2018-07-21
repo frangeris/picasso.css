@@ -1603,10 +1603,10 @@
   width: 1000px;
 }
 .height\:fit {
-  width: 100%;
+  height: 100%;
 }
 .height\:full {
-  width: 100vh;
+  height: 100vh;
 }
 .height\:0 {
   height: 0px;
