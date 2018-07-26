@@ -1461,6 +1461,11 @@
 .center {
   margin: 0 auto;
 }
+.self-center {
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
 .central {
   top: 0;
   right: 0;
@@ -2505,10 +2510,44 @@
 .transform\:unset {
   text-transform: unset;
 }
-.self-center {
-  margin: 0 auto;
-  right: 0;
-  left: 0;
+.decoration\:blink {
+  text-decoration: blink;
+}
+.decoration\:dashed {
+  text-decoration: dashed;
+}
+.decoration\:dotted {
+  text-decoration: dotted;
+}
+.decoration\:double {
+  text-decoration: double;
+}
+.decoration\:inherit {
+  text-decoration: inherit;
+}
+.decoration\:initial {
+  text-decoration: initial;
+}
+.decoration\:line-through {
+  text-decoration: line-through;
+}
+.decoration\:none {
+  text-decoration: none;
+}
+.decoration\:overline {
+  text-decoration: overline;
+}
+.decoration\:solid {
+  text-decoration: solid;
+}
+.decoration\:underline {
+  text-decoration: underline;
+}
+.decoration\:unset {
+  text-decoration: unset;
+}
+.decoration\:wavy {
+  text-decoration: wavy;
 }
 .z\:0 {
   z-index: 0;
