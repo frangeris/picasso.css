@@ -1,4 +1,4 @@
-.space(@attr, @x: undef, @y: undef, @n: 20, @i: 1) when (@i =< @n) {
+.space(@attr, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
   &\:@{i} when (@x = undef) and (@y = undef) {
     @{attr}: (@i * 0.50em);
   }
