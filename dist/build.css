@@ -2780,9 +2780,6 @@
 .text\:justify {
   text-align: justify;
 }
-.text:\:top {
-  vertical-align: top;
-}
 .transform\:uppercase {
   text-transform: uppercase;
 }
