@@ -24,11 +24,15 @@
 }
 
 .mar-y {
-  margin: @margin 0;
-  .space(margin, 0);
+  .space(margin-top, undef, undef);
+}
+.mar-y {
+  .space(margin-bottom, undef, undef);
 }
 
 .mar-x {
-  margin: 0 @margin;
-  .space(margin, undef, 0);
+  .space(margin-top, undef, undef);
+}
+.mar-x {
+  .space(margin-bottom, undef, undef);
 }

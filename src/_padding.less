@@ -24,11 +24,13 @@
 }
 
 .pad-y {
-  padding: @padding 0;
+  padding-top: @padding;
+  padding-bottom: @padding;
   .space(padding, 0);
 }
 
 .pad-x {
-  padding: 0 @padding;
+  padding-right: @padding;
+  padding-left: @padding;
   .space(padding, undef, 0);
 }
