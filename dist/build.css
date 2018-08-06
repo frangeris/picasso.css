@@ -1213,139 +1213,257 @@
 .pad-bot\:20 {
   padding-bottom: 10em;
 }
-.pad-y {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 .pad-y\:0 {
-  padding: 0em 0;
+  padding-top: 0em;
 }
 .pad-y\:1 {
-  padding: 0.5em 0;
+  padding-top: 0.5em;
 }
 .pad-y\:2 {
-  padding: 1em 0;
+  padding-top: 1em;
 }
 .pad-y\:3 {
-  padding: 1.5em 0;
+  padding-top: 1.5em;
 }
 .pad-y\:4 {
-  padding: 2em 0;
+  padding-top: 2em;
 }
 .pad-y\:5 {
-  padding: 2.5em 0;
+  padding-top: 2.5em;
 }
 .pad-y\:6 {
-  padding: 3em 0;
+  padding-top: 3em;
 }
 .pad-y\:7 {
-  padding: 3.5em 0;
+  padding-top: 3.5em;
 }
 .pad-y\:8 {
-  padding: 4em 0;
+  padding-top: 4em;
 }
 .pad-y\:9 {
-  padding: 4.5em 0;
+  padding-top: 4.5em;
 }
 .pad-y\:10 {
-  padding: 5em 0;
+  padding-top: 5em;
 }
 .pad-y\:11 {
-  padding: 5.5em 0;
+  padding-top: 5.5em;
 }
 .pad-y\:12 {
-  padding: 6em 0;
+  padding-top: 6em;
 }
 .pad-y\:13 {
-  padding: 6.5em 0;
+  padding-top: 6.5em;
 }
 .pad-y\:14 {
-  padding: 7em 0;
+  padding-top: 7em;
 }
 .pad-y\:15 {
-  padding: 7.5em 0;
+  padding-top: 7.5em;
 }
 .pad-y\:16 {
-  padding: 8em 0;
+  padding-top: 8em;
 }
 .pad-y\:17 {
-  padding: 8.5em 0;
+  padding-top: 8.5em;
 }
 .pad-y\:18 {
-  padding: 9em 0;
+  padding-top: 9em;
 }
 .pad-y\:19 {
-  padding: 9.5em 0;
+  padding-top: 9.5em;
 }
 .pad-y\:20 {
-  padding: 10em 0;
+  padding-top: 10em;
 }
-.pad-x {
-  padding-right: 1em;
-  padding-left: 1em;
+.pad-y\:0 {
+  padding-bottom: 0em;
+}
+.pad-y\:1 {
+  padding-bottom: 0.5em;
+}
+.pad-y\:2 {
+  padding-bottom: 1em;
+}
+.pad-y\:3 {
+  padding-bottom: 1.5em;
+}
+.pad-y\:4 {
+  padding-bottom: 2em;
+}
+.pad-y\:5 {
+  padding-bottom: 2.5em;
+}
+.pad-y\:6 {
+  padding-bottom: 3em;
+}
+.pad-y\:7 {
+  padding-bottom: 3.5em;
+}
+.pad-y\:8 {
+  padding-bottom: 4em;
+}
+.pad-y\:9 {
+  padding-bottom: 4.5em;
+}
+.pad-y\:10 {
+  padding-bottom: 5em;
+}
+.pad-y\:11 {
+  padding-bottom: 5.5em;
+}
+.pad-y\:12 {
+  padding-bottom: 6em;
+}
+.pad-y\:13 {
+  padding-bottom: 6.5em;
+}
+.pad-y\:14 {
+  padding-bottom: 7em;
+}
+.pad-y\:15 {
+  padding-bottom: 7.5em;
+}
+.pad-y\:16 {
+  padding-bottom: 8em;
+}
+.pad-y\:17 {
+  padding-bottom: 8.5em;
+}
+.pad-y\:18 {
+  padding-bottom: 9em;
+}
+.pad-y\:19 {
+  padding-bottom: 9.5em;
+}
+.pad-y\:20 {
+  padding-bottom: 10em;
 }
 .pad-x\:0 {
-  padding: 0 0em;
+  padding-top: 0em;
 }
 .pad-x\:1 {
-  padding: 0 0.5em;
+  padding-top: 0.5em;
 }
 .pad-x\:2 {
-  padding: 0 1em;
+  padding-top: 1em;
 }
 .pad-x\:3 {
-  padding: 0 1.5em;
+  padding-top: 1.5em;
 }
 .pad-x\:4 {
-  padding: 0 2em;
+  padding-top: 2em;
 }
 .pad-x\:5 {
-  padding: 0 2.5em;
+  padding-top: 2.5em;
 }
 .pad-x\:6 {
-  padding: 0 3em;
+  padding-top: 3em;
 }
 .pad-x\:7 {
-  padding: 0 3.5em;
+  padding-top: 3.5em;
 }
 .pad-x\:8 {
-  padding: 0 4em;
+  padding-top: 4em;
 }
 .pad-x\:9 {
-  padding: 0 4.5em;
+  padding-top: 4.5em;
 }
 .pad-x\:10 {
-  padding: 0 5em;
+  padding-top: 5em;
 }
 .pad-x\:11 {
-  padding: 0 5.5em;
+  padding-top: 5.5em;
 }
 .pad-x\:12 {
-  padding: 0 6em;
+  padding-top: 6em;
 }
 .pad-x\:13 {
-  padding: 0 6.5em;
+  padding-top: 6.5em;
 }
 .pad-x\:14 {
-  padding: 0 7em;
+  padding-top: 7em;
 }
 .pad-x\:15 {
-  padding: 0 7.5em;
+  padding-top: 7.5em;
 }
 .pad-x\:16 {
-  padding: 0 8em;
+  padding-top: 8em;
 }
 .pad-x\:17 {
-  padding: 0 8.5em;
+  padding-top: 8.5em;
 }
 .pad-x\:18 {
-  padding: 0 9em;
+  padding-top: 9em;
 }
 .pad-x\:19 {
-  padding: 0 9.5em;
+  padding-top: 9.5em;
 }
 .pad-x\:20 {
-  padding: 0 10em;
+  padding-top: 10em;
+}
+.pad-x\:0 {
+  padding-bottom: 0em;
+}
+.pad-x\:1 {
+  padding-bottom: 0.5em;
+}
+.pad-x\:2 {
+  padding-bottom: 1em;
+}
+.pad-x\:3 {
+  padding-bottom: 1.5em;
+}
+.pad-x\:4 {
+  padding-bottom: 2em;
+}
+.pad-x\:5 {
+  padding-bottom: 2.5em;
+}
+.pad-x\:6 {
+  padding-bottom: 3em;
+}
+.pad-x\:7 {
+  padding-bottom: 3.5em;
+}
+.pad-x\:8 {
+  padding-bottom: 4em;
+}
+.pad-x\:9 {
+  padding-bottom: 4.5em;
+}
+.pad-x\:10 {
+  padding-bottom: 5em;
+}
+.pad-x\:11 {
+  padding-bottom: 5.5em;
+}
+.pad-x\:12 {
+  padding-bottom: 6em;
+}
+.pad-x\:13 {
+  padding-bottom: 6.5em;
+}
+.pad-x\:14 {
+  padding-bottom: 7em;
+}
+.pad-x\:15 {
+  padding-bottom: 7.5em;
+}
+.pad-x\:16 {
+  padding-bottom: 8em;
+}
+.pad-x\:17 {
+  padding-bottom: 8.5em;
+}
+.pad-x\:18 {
+  padding-bottom: 9em;
+}
+.pad-x\:19 {
+  padding-bottom: 9.5em;
+}
+.pad-x\:20 {
+  padding-bottom: 10em;
 }
 .static {
   position: static;
