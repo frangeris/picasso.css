@@ -97,25 +97,25 @@
 .cursor\:zoom-out:hover {
   cursor: zoom-out;
 }
-.block {
+.display\:block {
   display: block;
 }
-.hidden {
+.display\:hidden {
   display: none;
 }
-.inline-block {
+.display\:inline-block {
   display: inline-block;
 }
-.inline {
+.display\:inline {
   display: inline;
 }
-.table {
+.display\:table {
   display: table;
 }
-.table.row {
+.display\:table\:row {
   display: table-row;
 }
-.table.cell {
+.display\:table\:cell {
   display: table-cell;
 }
 .flex {
