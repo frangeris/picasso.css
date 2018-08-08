@@ -28,6 +28,14 @@
   &\:no-shrink	{
     flex-shrink: 0;
   }
+
+  & > .row {
+    display: flex;
+    flex-direction: row;
+    &\:reverse {
+      flex-direction: row-reverse;
+    }
+  }
 }
 
 .inline {
