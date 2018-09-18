@@ -14,8 +14,8 @@
   .space(@attr, @x, @y, @n, (@i + 1));
 }
 
-.size(@prefix, @attr, @n: 40, @i: 0) when (@i =< @n) {
-  @count: (@i * 25);
+.size(@prefix, @attr, @n: 100, @i: 0) when (@i =< @n) {
+  @count: (@i * 5);
   .@{prefix}\:@{count} {
     @{attr}: unit(@count, px);
   }
