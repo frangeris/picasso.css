@@ -1,38 +1,44 @@
 .mar {
   margin: @margin;
   .space(margin);
-}
 
-.mar-top {
-  margin-top: @margin;
-  .space(margin-top);
-}
+  &\:auto {
+    margin: 0 auto;
+  }
 
-.mar-lef {
-  margin-left: @margin;
-  .space(margin-left);
-}
+  &-top {
+    margin-top: @margin;
+    .space(margin-top);
+  }
 
-.mar-rig {
-  margin-right: @margin;
-  .space(margin-right);
-}
+  &-lef {
+    margin-left: @margin;
+    .space(margin-left);
+  }
 
-.mar-bot {
-  margin-bottom: @margin;
-  .space(margin-bottom);
-}
+  &-rig {
+    margin-right: @margin;
+    .space(margin-right);
+  }
 
-.mar-y {
-  .space(margin-top, undef, undef);
-}
-.mar-y {
-  .space(margin-bottom, undef, undef);
-}
+  &-bot {
+    margin-bottom: @margin;
+    .space(margin-bottom);
+  }
 
-.mar-x {
-  .space(margin-right, undef, undef);
-}
-.mar-x {
-  .space(margin-left, undef, undef);
+  &-y {
+    .space(margin-top, undef, undef);
+  }
+
+  &-y {
+    .space(margin-bottom, undef, undef);
+  }
+
+  &-x {
+    .space(margin-right, undef, undef);
+  }
+
+  &-x {
+    .space(margin-left, undef, undef);
+  }
 }

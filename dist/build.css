@@ -422,6 +422,9 @@
 .mar\:20 {
   margin: 10em;
 }
+.mar\:auto {
+  margin: 0 auto;
+}
 .mar-top {
   margin-top: 2em;
 }
