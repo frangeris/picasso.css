@@ -938,6 +938,30 @@
 .mar-x\:20 {
   margin-left: 10em;
 }
+.overflow\:auto {
+  overflow: auto;
+}
+.overflow\:hidden {
+  overflow: hidden;
+}
+.overflow\:visible {
+  overflow: visible;
+}
+.overflow\:scroll {
+  overflow: scroll;
+}
+.overflow\:x-auto {
+  overflow-x: auto;
+}
+.overflow\:y-auto {
+  overflow-y: auto;
+}
+.overflow\:x-scroll {
+  overflow-x: scroll;
+}
+.overflow\:y-scroll {
+  overflow-y: scroll;
+}
 .pad {
   padding: 1em;
 }
