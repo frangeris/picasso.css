@@ -3,7 +3,7 @@ const css = require('css')
 const { getPropertyName, getStylesForProperty } = require('css-to-react-native')
 
 const allowed = [
-  'display',
+  // 'display', [none, flex]
   'align',
   'justify',
   'float',
