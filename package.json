@@ -3,6 +3,7 @@
   "version": "1.0.47",
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
+  "main": "/dist/native.js",
   "scripts": {
     "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css && ./node_modules/.bin/cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8"
   },
