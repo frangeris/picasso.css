@@ -4,6 +4,7 @@ const { getPropertyName, getStylesForProperty } = require('css-to-react-native')
 
 const counter = 10
 const allowed = {
+  // 'flex'
   'display': (v, k) => {
     switch (k) {
       case 'none':
@@ -41,13 +42,13 @@ export default StyleSheet.create({
 
 for (let rule of ast.stylesheet.rules) {
   let selector = rule.selectors[0].replace(/[\\.]+/g, '')
-  let targets = selector.split(':')
-  let type = targets[0]
+  let parts = selector.split(':')
+  let type = parts[0]
   let property = rule.declarations[0].property
   let name = getPropertyName(property)
 
   if (Object.keys(allowed).includes(type)) {
-    let value = allowed[type](rule.declarations[0].value, targets[1])
+    let value = allowed[type](rule.declarations[0].value, parts[1])
     if (value) {
       template += `  '${selector}': {
     ${name}: ${value}
