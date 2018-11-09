@@ -15,7 +15,7 @@ const allowed = {
       case 'hidden':
         return `'none'`
         break
-      default:
+      case 'flex':
         return `'flex'`
         break
     }

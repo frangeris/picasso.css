@@ -97,10 +97,16 @@
 .cursor\:zoom-out:hover {
   cursor: zoom-out;
 }
+.display\:flex {
+  display: flex;
+}
 .display\:block {
   display: block;
 }
 .display\:hidden {
+  display: none;
+}
+.display\:none {
   display: none;
 }
 .display\:inline-block {

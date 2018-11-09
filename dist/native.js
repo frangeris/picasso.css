@@ -1,26 +1,14 @@
 import { StyleSheet, PixelRatio } from 'react-native'
 
 export default StyleSheet.create({
-  'display:block': {
+  'display:flex': {
     display: 'flex'
   },
   'display:hidden': {
     display: 'none'
   },
-  'display:inline-block': {
-    display: 'flex'
-  },
-  'display:inline': {
-    display: 'flex'
-  },
-  'display:table': {
-    display: 'flex'
-  },
-  'display:table:row': {
-    display: 'flex'
-  },
-  'display:table:cell': {
-    display: 'flex'
+  'display:none': {
+    display: 'none'
   },
   'align:stretch': {
     alignItems: 'stretch'
