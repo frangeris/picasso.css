@@ -22,22 +22,20 @@ const allowed = {
   },
   'align': v => `'${v}'`,
   'justify': v => `'${v}'`,
-  'width': n => (n == '100vh') ? parseInt(n) * counter : false,
-  'height': n => (n == '100vh') ? parseInt(n) * counter : false,
-  'mar': n => parseFloat(n) * counter,
-  'mar-top': n => parseFloat(n) * counter,
-  'mar-lef': n => parseFloat(n) * counter,
-  'mar-rig': n => parseFloat(n) * counter,
-  'mar-bot': n => parseFloat(n) * counter,
-  'pad': n => parseFloat(n) * counter,
-  'pad-top': n => parseFloat(n) * counter,
-  'pad-lef': n => parseFloat(n) * counter,
-  'pad-rig': n => parseFloat(n) * counter,
-  'pad-bot': n => parseFloat(n) * counter,
+  'mar': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'mar-top': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'mar-lef': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'mar-rig': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'mar-bot': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'pad': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'pad-top': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'pad-lef': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'pad-rig': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
+  'pad-bot': v => `${parseFloat(v) * counter} * PixelRatio.get()`
 }
 let content = fs.readFileSync('./dist/build.min.css', 'utf8')
 let ast = css.parse(content)
-let template = `import { StyleSheet } from 'react-native'
+let template = `import { StyleSheet, PixelRatio } from 'react-native'
 
 export default StyleSheet.create({
 `
