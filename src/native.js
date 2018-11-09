@@ -2,9 +2,11 @@ const fs = require('fs')
 const css = require('css')
 const { getPropertyName, getStylesForProperty } = require('css-to-react-native')
 
+// pixel to points operand
 const counter = 10
+
+// allowed classe, map web values to native
 const allowed = {
-  // 'flex'
   'display': (v, k) => {
     switch (k) {
       case 'none':
@@ -58,7 +60,11 @@ for (let rule of ast.stylesheet.rules) {
   }
 }
 
-// add display
+// Additional & exceptional values
+template += `  'fit': {
+    flex: 1
+  }
+`
 
 template += `})
 `

@@ -688,4 +688,7 @@ export default StyleSheet.create({
   'height:full': {
     height: 1000
   },
+  'fit': {
+    flex: 1
+  }
 })
