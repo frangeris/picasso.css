@@ -2,6 +2,10 @@ const fs = require('fs')
 const css = require('css')
 const { getPropertyName, getStylesForProperty } = require('css-to-react-native')
 
+const get = (v) => {
+  return !parseFloat(v) ? `0` : `${parseFloat(v)} * ratio`
+}
+
 // pixel to points operand
 const counter = 10
 
@@ -22,21 +26,24 @@ const allowed = {
   },
   'align': v => `'${v}'`,
   'justify': v => `'${v}'`,
-  'mar': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'mar-top': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'mar-lef': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'mar-rig': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'mar-bot': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'pad': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'pad-top': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'pad-lef': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'pad-rig': v => `${parseFloat(v) * counter} * PixelRatio.get()`,
-  'pad-bot': v => `${parseFloat(v) * counter} * PixelRatio.get()`
+  'width': (v, k) => (k == 'fit' || k == 'full') ? false : get(v),
+  'height': (v, k) => (k == 'fit' || k == 'full') ? false : get(v),
+  'mar': get,
+  'mar-top': get,
+  'mar-lef': get,
+  'mar-rig': get,
+  'mar-bot': get,
+  'pad': get,
+  'pad-top': get,
+  'pad-lef': get,
+  'pad-rig': get,
+  'pad-bot': get,
 }
 let content = fs.readFileSync('./dist/build.min.css', 'utf8')
 let ast = css.parse(content)
 let template = `import { StyleSheet, PixelRatio } from 'react-native'
 
+const ratio = PixelRatio.get()
 export default StyleSheet.create({
 `
 
