@@ -26,12 +26,12 @@
   #increment(@prop, @nested, @n, (@i + 1));
 }
 
-#value(@attr, @prefix, @n: 200, @i: 0) when (@i =< @n) {
-  @pixels: (@i * 5);
+#value(@attr, @prefix, @seq: 5, @n: 200, @i: 0) when (@i =< @n) {
+  @pixels: (@i * @seq);
   &\:@{pixels} {
     @{attr}: unit(@pixels, @prefix);
   }
-  #value(@attr, @prefix, @n, (@i + 1));
+  #value(@attr, @prefix, @seq, @n, (@i + 1));
 }
 
 .column-width(@n) {
