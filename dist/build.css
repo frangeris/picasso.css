@@ -6799,76 +6799,76 @@
 .left\:1000 {
   left: 1000px;
 }
-.text\:center {
-  text-align: center;
-}
-.text\:left {
+.text\:align\:left {
   text-align: left;
 }
-.text\:right {
+.text\:align\:right {
   text-align: right;
 }
-.text\:justify {
+.text\:align\:center {
+  text-align: center;
+}
+.text\:align\:justify {
   text-align: justify;
 }
-.transform\:uppercase {
+.text\:transform\:uppercase {
   text-transform: uppercase;
 }
-.transform\:capitalize {
+.text\:transform\:capitalize {
   text-transform: capitalize;
 }
-.transform\:lowercase {
+.text\:transform\:lowercase {
   text-transform: lowercase;
 }
-.transform\:inherit {
+.text\:transform\:inherit {
   text-transform: inherit;
 }
-.transform\:initial {
+.text\:transform\:initial {
   text-transform: initial;
 }
-.transform\:none {
+.text\:transform\:none {
   text-transform: none;
 }
-.transform\:unset {
+.text\:transform\:unset {
   text-transform: unset;
 }
-.decoration\:blink {
+.text\:decoration\:blink {
   text-decoration: blink;
 }
-.decoration\:dashed {
+.text\:decoration\:dashed {
   text-decoration: dashed;
 }
-.decoration\:dotted {
+.text\:decoration\:dotted {
   text-decoration: dotted;
 }
-.decoration\:double {
+.text\:decoration\:double {
   text-decoration: double;
 }
-.decoration\:inherit {
+.text\:decoration\:inherit {
   text-decoration: inherit;
 }
-.decoration\:initial {
+.text\:decoration\:initial {
   text-decoration: initial;
 }
-.decoration\:line-through {
+.text\:decoration\:line-through {
   text-decoration: line-through;
 }
-.decoration\:none {
+.text\:decoration\:none {
   text-decoration: none;
 }
-.decoration\:overline {
+.text\:decoration\:overline {
   text-decoration: overline;
 }
-.decoration\:solid {
+.text\:decoration\:solid {
   text-decoration: solid;
 }
-.decoration\:underline {
+.text\:decoration\:underline {
   text-decoration: underline;
 }
-.decoration\:unset {
+.text\:decoration\:unset {
   text-decoration: unset;
 }
-.decoration\:wavy {
+.text\:decoration\:wavy {
   text-decoration: wavy;
 }
 .noselect {
