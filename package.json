@@ -1,11 +1,12 @@
 {
   "name": "picasso.css",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
   "main": "/dist/native.js",
   "scripts": {
-    "build": "./node_modules/.bin/lessc ./src/main.less ./dist/build.css && ./node_modules/.bin/cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8 && node ./src/compile.js"
+    "build": "lessc ./src/main.less ./dist/build.css && cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8",
+    "postbuild": "node ./src/compile.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,10 @@
   },
   "homepage": "https://github.com/frangeris/picasso.css#readme",
   "devDependencies": {
-    "clean-css-cli": "^4.1.11",
-    "css": "^2.2.4",
-    "css-to-react-native": "^2.2.2",
-    "less": "^3.0.4"
+    "clean-css-cli": "4.1.11",
+    "css": "2.2.4",
+    "css-to-react-native": "2.2.2",
+    "less": "3.0.4"
   },
   "dependencies": {}
 }

@@ -1,14 +1,14 @@
 .space(@attr, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
   &\:@{i} when (@x = undef) and (@y = undef) {
-    @{attr}: (@i * 0.50em);
+    @{attr}: (@i * 0.5em);
   }
 
   &\:@{i} when not (@x = undef) {
-    @{attr}: (@i * 0.50em) @x;
+    @{attr}: (@i * 0.5em) @x;
   }
 
   &\:@{i} when not (@y = undef) {
-    @{attr}: @y (@i * 0.50em);
+    @{attr}: @y (@i * 0.5em);
   }
 
   .space(@attr, @x, @y, @n, (@i + 1));
@@ -23,5 +23,18 @@
 }
 
 .column-width(@n) {
-  width: @column-width * @n - (@column-margin * (@total-columns - @n) / @total-columns);
+  width: @column-width * @n -
+    (@column-margin * (@total-columns - @n) / @total-columns);
+}
+
+#increment(@prop, @nested: false, @n: 10, @i: 0) when (@i =< @n) {
+  &\:@{i} when (@nested = true) {
+    @{prop}: @i;
+  }
+
+  .@{prop}\:@{i} when (@nested = false) {
+    @{prop}: @i;
+  }
+
+  #increment(@prop, @nested, @n, (@i + 1));
 }

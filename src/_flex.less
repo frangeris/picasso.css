@@ -1,3 +1,5 @@
+#increment(flex);
+
 .flex {
   display: flex;
 
@@ -14,18 +16,18 @@
   }
 
   &\:grow {
-    flex-grow: 1;
+    #increment(flex-grow, true);
   }
 
   &\:shrink {
-    flex-shrink: 1;
+    #increment(flex-shrink, true);
   }
 
-  &\:no-grow	{
+  &\:no-grow {
     flex-grow: 0;
   }
 
-  &\:no-shrink	{
+  &\:no-shrink {
     flex-shrink: 0;
   }
 
@@ -39,7 +41,9 @@
 }
 
 .inline {
-  display: inline-flex;
+  &\:flex {
+    display: inline-flex;
+  }
 }
 
 .fit {
@@ -72,7 +76,7 @@
 }
 
 .align {
-  &\:stretch	{
+  &\:stretch {
     align-items: stretch;
   }
 
@@ -116,7 +120,7 @@
 }
 
 .justify {
-  &\:start	{
+  &\:start {
     justify-content: flex-start;
   }
 
