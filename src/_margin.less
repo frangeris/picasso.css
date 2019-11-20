@@ -1,44 +1,44 @@
-.mar {
+.margin {
   margin: @margin;
-  .space(margin);
+  #space(margin);
 
   &\:auto {
     margin: 0 auto;
   }
 
-  &-top {
+  &\:top {
     margin-top: @margin;
-    .space(margin-top);
+    #space(margin-top);
   }
 
-  &-lef {
+  &\:left {
     margin-left: @margin;
-    .space(margin-left);
+    #space(margin-left);
   }
 
-  &-rig {
+  &\:right {
     margin-right: @margin;
-    .space(margin-right);
+    #space(margin-right);
   }
 
-  &-bot {
+  &\:bottom {
     margin-bottom: @margin;
-    .space(margin-bottom);
+    #space(margin-bottom);
   }
 
-  &-y {
-    .space(margin-top, undef, undef);
+  &\:y {
+    #space(margin-top, undef, undef);
   }
 
-  &-y {
-    .space(margin-bottom, undef, undef);
+  &\:y {
+    #space(margin-bottom, undef, undef);
   }
 
-  &-x {
-    .space(margin-right, undef, undef);
+  &\:x {
+    #space(margin-right, undef, undef);
   }
 
-  &-x {
-    .space(margin-left, undef, undef);
+  &\:x {
+    #space(margin-left, undef, undef);
   }
 }

@@ -41,339 +41,6 @@ export default StyleSheet.create({
   'justify:around': {
     justifyContent: 'space-around'
   },
-  'mar': {
-    margin: 2 * ratio
-  },
-  'mar:0': {
-    margin: 0
-  },
-  'mar:1': {
-    margin: 0.5 * ratio
-  },
-  'mar:2': {
-    margin: 1 * ratio
-  },
-  'mar:3': {
-    margin: 1.5 * ratio
-  },
-  'mar:4': {
-    margin: 2 * ratio
-  },
-  'mar:5': {
-    margin: 2.5 * ratio
-  },
-  'mar:6': {
-    margin: 3 * ratio
-  },
-  'mar:7': {
-    margin: 3.5 * ratio
-  },
-  'mar:8': {
-    margin: 4 * ratio
-  },
-  'mar:9': {
-    margin: 4.5 * ratio
-  },
-  'mar:10': {
-    margin: 5 * ratio
-  },
-  'mar:11': {
-    margin: 5.5 * ratio
-  },
-  'mar:12': {
-    margin: 6 * ratio
-  },
-  'mar:13': {
-    margin: 6.5 * ratio
-  },
-  'mar:14': {
-    margin: 7 * ratio
-  },
-  'mar:15': {
-    margin: 7.5 * ratio
-  },
-  'mar:16': {
-    margin: 8 * ratio
-  },
-  'mar:17': {
-    margin: 8.5 * ratio
-  },
-  'mar:18': {
-    margin: 9 * ratio
-  },
-  'mar:19': {
-    margin: 9.5 * ratio
-  },
-  'mar:20': {
-    margin: 10 * ratio
-  },
-  'mar:auto': {
-    margin: 0
-  },
-  'mar-top': {
-    marginTop: 2 * ratio
-  },
-  'mar-top:0': {
-    marginTop: 0
-  },
-  'mar-top:1': {
-    marginTop: 0.5 * ratio
-  },
-  'mar-top:2': {
-    marginTop: 1 * ratio
-  },
-  'mar-top:3': {
-    marginTop: 1.5 * ratio
-  },
-  'mar-top:4': {
-    marginTop: 2 * ratio
-  },
-  'mar-top:5': {
-    marginTop: 2.5 * ratio
-  },
-  'mar-top:6': {
-    marginTop: 3 * ratio
-  },
-  'mar-top:7': {
-    marginTop: 3.5 * ratio
-  },
-  'mar-top:8': {
-    marginTop: 4 * ratio
-  },
-  'mar-top:9': {
-    marginTop: 4.5 * ratio
-  },
-  'mar-top:10': {
-    marginTop: 5 * ratio
-  },
-  'mar-top:11': {
-    marginTop: 5.5 * ratio
-  },
-  'mar-top:12': {
-    marginTop: 6 * ratio
-  },
-  'mar-top:13': {
-    marginTop: 6.5 * ratio
-  },
-  'mar-top:14': {
-    marginTop: 7 * ratio
-  },
-  'mar-top:15': {
-    marginTop: 7.5 * ratio
-  },
-  'mar-top:16': {
-    marginTop: 8 * ratio
-  },
-  'mar-top:17': {
-    marginTop: 8.5 * ratio
-  },
-  'mar-top:18': {
-    marginTop: 9 * ratio
-  },
-  'mar-top:19': {
-    marginTop: 9.5 * ratio
-  },
-  'mar-top:20': {
-    marginTop: 10 * ratio
-  },
-  'mar-lef': {
-    marginLeft: 2 * ratio
-  },
-  'mar-lef:0': {
-    marginLeft: 0
-  },
-  'mar-lef:1': {
-    marginLeft: 0.5 * ratio
-  },
-  'mar-lef:2': {
-    marginLeft: 1 * ratio
-  },
-  'mar-lef:3': {
-    marginLeft: 1.5 * ratio
-  },
-  'mar-lef:4': {
-    marginLeft: 2 * ratio
-  },
-  'mar-lef:5': {
-    marginLeft: 2.5 * ratio
-  },
-  'mar-lef:6': {
-    marginLeft: 3 * ratio
-  },
-  'mar-lef:7': {
-    marginLeft: 3.5 * ratio
-  },
-  'mar-lef:8': {
-    marginLeft: 4 * ratio
-  },
-  'mar-lef:9': {
-    marginLeft: 4.5 * ratio
-  },
-  'mar-lef:10': {
-    marginLeft: 5 * ratio
-  },
-  'mar-lef:11': {
-    marginLeft: 5.5 * ratio
-  },
-  'mar-lef:12': {
-    marginLeft: 6 * ratio
-  },
-  'mar-lef:13': {
-    marginLeft: 6.5 * ratio
-  },
-  'mar-lef:14': {
-    marginLeft: 7 * ratio
-  },
-  'mar-lef:15': {
-    marginLeft: 7.5 * ratio
-  },
-  'mar-lef:16': {
-    marginLeft: 8 * ratio
-  },
-  'mar-lef:17': {
-    marginLeft: 8.5 * ratio
-  },
-  'mar-lef:18': {
-    marginLeft: 9 * ratio
-  },
-  'mar-lef:19': {
-    marginLeft: 9.5 * ratio
-  },
-  'mar-lef:20': {
-    marginLeft: 10 * ratio
-  },
-  'mar-rig': {
-    marginRight: 2 * ratio
-  },
-  'mar-rig:0': {
-    marginRight: 0
-  },
-  'mar-rig:1': {
-    marginRight: 0.5 * ratio
-  },
-  'mar-rig:2': {
-    marginRight: 1 * ratio
-  },
-  'mar-rig:3': {
-    marginRight: 1.5 * ratio
-  },
-  'mar-rig:4': {
-    marginRight: 2 * ratio
-  },
-  'mar-rig:5': {
-    marginRight: 2.5 * ratio
-  },
-  'mar-rig:6': {
-    marginRight: 3 * ratio
-  },
-  'mar-rig:7': {
-    marginRight: 3.5 * ratio
-  },
-  'mar-rig:8': {
-    marginRight: 4 * ratio
-  },
-  'mar-rig:9': {
-    marginRight: 4.5 * ratio
-  },
-  'mar-rig:10': {
-    marginRight: 5 * ratio
-  },
-  'mar-rig:11': {
-    marginRight: 5.5 * ratio
-  },
-  'mar-rig:12': {
-    marginRight: 6 * ratio
-  },
-  'mar-rig:13': {
-    marginRight: 6.5 * ratio
-  },
-  'mar-rig:14': {
-    marginRight: 7 * ratio
-  },
-  'mar-rig:15': {
-    marginRight: 7.5 * ratio
-  },
-  'mar-rig:16': {
-    marginRight: 8 * ratio
-  },
-  'mar-rig:17': {
-    marginRight: 8.5 * ratio
-  },
-  'mar-rig:18': {
-    marginRight: 9 * ratio
-  },
-  'mar-rig:19': {
-    marginRight: 9.5 * ratio
-  },
-  'mar-rig:20': {
-    marginRight: 10 * ratio
-  },
-  'mar-bot': {
-    marginBottom: 2 * ratio
-  },
-  'mar-bot:0': {
-    marginBottom: 0
-  },
-  'mar-bot:1': {
-    marginBottom: 0.5 * ratio
-  },
-  'mar-bot:2': {
-    marginBottom: 1 * ratio
-  },
-  'mar-bot:3': {
-    marginBottom: 1.5 * ratio
-  },
-  'mar-bot:4': {
-    marginBottom: 2 * ratio
-  },
-  'mar-bot:5': {
-    marginBottom: 2.5 * ratio
-  },
-  'mar-bot:6': {
-    marginBottom: 3 * ratio
-  },
-  'mar-bot:7': {
-    marginBottom: 3.5 * ratio
-  },
-  'mar-bot:8': {
-    marginBottom: 4 * ratio
-  },
-  'mar-bot:9': {
-    marginBottom: 4.5 * ratio
-  },
-  'mar-bot:10': {
-    marginBottom: 5 * ratio
-  },
-  'mar-bot:11': {
-    marginBottom: 5.5 * ratio
-  },
-  'mar-bot:12': {
-    marginBottom: 6 * ratio
-  },
-  'mar-bot:13': {
-    marginBottom: 6.5 * ratio
-  },
-  'mar-bot:14': {
-    marginBottom: 7 * ratio
-  },
-  'mar-bot:15': {
-    marginBottom: 7.5 * ratio
-  },
-  'mar-bot:16': {
-    marginBottom: 8 * ratio
-  },
-  'mar-bot:17': {
-    marginBottom: 8.5 * ratio
-  },
-  'mar-bot:18': {
-    marginBottom: 9 * ratio
-  },
-  'mar-bot:19': {
-    marginBottom: 9.5 * ratio
-  },
-  'mar-bot:20': {
-    marginBottom: 10 * ratio
-  },
   'pad': {
     padding: 1 * ratio
   },
@@ -381,64 +48,64 @@ export default StyleSheet.create({
     padding: 0
   },
   'pad:1': {
-    padding: 0.5 * ratio
-  },
-  'pad:2': {
     padding: 1 * ratio
   },
-  'pad:3': {
-    padding: 1.5 * ratio
-  },
-  'pad:4': {
+  'pad:2': {
     padding: 2 * ratio
   },
-  'pad:5': {
-    padding: 2.5 * ratio
-  },
-  'pad:6': {
+  'pad:3': {
     padding: 3 * ratio
   },
-  'pad:7': {
-    padding: 3.5 * ratio
-  },
-  'pad:8': {
+  'pad:4': {
     padding: 4 * ratio
   },
-  'pad:9': {
-    padding: 4.5 * ratio
-  },
-  'pad:10': {
+  'pad:5': {
     padding: 5 * ratio
   },
-  'pad:11': {
-    padding: 5.5 * ratio
-  },
-  'pad:12': {
+  'pad:6': {
     padding: 6 * ratio
   },
-  'pad:13': {
-    padding: 6.5 * ratio
-  },
-  'pad:14': {
+  'pad:7': {
     padding: 7 * ratio
   },
-  'pad:15': {
-    padding: 7.5 * ratio
-  },
-  'pad:16': {
+  'pad:8': {
     padding: 8 * ratio
   },
-  'pad:17': {
-    padding: 8.5 * ratio
-  },
-  'pad:18': {
+  'pad:9': {
     padding: 9 * ratio
   },
+  'pad:10': {
+    padding: 10 * ratio
+  },
+  'pad:11': {
+    padding: 11 * ratio
+  },
+  'pad:12': {
+    padding: 12 * ratio
+  },
+  'pad:13': {
+    padding: 13 * ratio
+  },
+  'pad:14': {
+    padding: 14 * ratio
+  },
+  'pad:15': {
+    padding: 15 * ratio
+  },
+  'pad:16': {
+    padding: 16 * ratio
+  },
+  'pad:17': {
+    padding: 17 * ratio
+  },
+  'pad:18': {
+    padding: 18 * ratio
+  },
   'pad:19': {
-    padding: 9.5 * ratio
+    padding: 19 * ratio
   },
   'pad:20': {
-    padding: 10 * ratio
+    padding: 20 * ratio
   },
   'pad-top': {
     paddingTop: 1 * ratio
@@ -447,64 +114,64 @@ export default StyleSheet.create({
     paddingTop: 0
   },
   'pad-top:1': {
-    paddingTop: 0.5 * ratio
-  },
-  'pad-top:2': {
     paddingTop: 1 * ratio
   },
-  'pad-top:3': {
-    paddingTop: 1.5 * ratio
-  },
-  'pad-top:4': {
+  'pad-top:2': {
     paddingTop: 2 * ratio
   },
-  'pad-top:5': {
-    paddingTop: 2.5 * ratio
-  },
-  'pad-top:6': {
+  'pad-top:3': {
     paddingTop: 3 * ratio
   },
-  'pad-top:7': {
-    paddingTop: 3.5 * ratio
-  },
-  'pad-top:8': {
+  'pad-top:4': {
     paddingTop: 4 * ratio
   },
-  'pad-top:9': {
-    paddingTop: 4.5 * ratio
-  },
-  'pad-top:10': {
+  'pad-top:5': {
     paddingTop: 5 * ratio
   },
-  'pad-top:11': {
-    paddingTop: 5.5 * ratio
-  },
-  'pad-top:12': {
+  'pad-top:6': {
     paddingTop: 6 * ratio
   },
-  'pad-top:13': {
-    paddingTop: 6.5 * ratio
-  },
-  'pad-top:14': {
+  'pad-top:7': {
     paddingTop: 7 * ratio
   },
-  'pad-top:15': {
-    paddingTop: 7.5 * ratio
-  },
-  'pad-top:16': {
+  'pad-top:8': {
     paddingTop: 8 * ratio
   },
-  'pad-top:17': {
-    paddingTop: 8.5 * ratio
-  },
-  'pad-top:18': {
+  'pad-top:9': {
     paddingTop: 9 * ratio
   },
+  'pad-top:10': {
+    paddingTop: 10 * ratio
+  },
+  'pad-top:11': {
+    paddingTop: 11 * ratio
+  },
+  'pad-top:12': {
+    paddingTop: 12 * ratio
+  },
+  'pad-top:13': {
+    paddingTop: 13 * ratio
+  },
+  'pad-top:14': {
+    paddingTop: 14 * ratio
+  },
+  'pad-top:15': {
+    paddingTop: 15 * ratio
+  },
+  'pad-top:16': {
+    paddingTop: 16 * ratio
+  },
+  'pad-top:17': {
+    paddingTop: 17 * ratio
+  },
+  'pad-top:18': {
+    paddingTop: 18 * ratio
+  },
   'pad-top:19': {
-    paddingTop: 9.5 * ratio
+    paddingTop: 19 * ratio
   },
   'pad-top:20': {
-    paddingTop: 10 * ratio
+    paddingTop: 20 * ratio
   },
   'pad-lef': {
     paddingLeft: 1 * ratio
@@ -513,64 +180,64 @@ export default StyleSheet.create({
     paddingLeft: 0
   },
   'pad-lef:1': {
-    paddingLeft: 0.5 * ratio
-  },
-  'pad-lef:2': {
     paddingLeft: 1 * ratio
   },
-  'pad-lef:3': {
-    paddingLeft: 1.5 * ratio
-  },
-  'pad-lef:4': {
+  'pad-lef:2': {
     paddingLeft: 2 * ratio
   },
-  'pad-lef:5': {
-    paddingLeft: 2.5 * ratio
-  },
-  'pad-lef:6': {
+  'pad-lef:3': {
     paddingLeft: 3 * ratio
   },
-  'pad-lef:7': {
-    paddingLeft: 3.5 * ratio
-  },
-  'pad-lef:8': {
+  'pad-lef:4': {
     paddingLeft: 4 * ratio
   },
-  'pad-lef:9': {
-    paddingLeft: 4.5 * ratio
-  },
-  'pad-lef:10': {
+  'pad-lef:5': {
     paddingLeft: 5 * ratio
   },
-  'pad-lef:11': {
-    paddingLeft: 5.5 * ratio
-  },
-  'pad-lef:12': {
+  'pad-lef:6': {
     paddingLeft: 6 * ratio
   },
-  'pad-lef:13': {
-    paddingLeft: 6.5 * ratio
-  },
-  'pad-lef:14': {
+  'pad-lef:7': {
     paddingLeft: 7 * ratio
   },
-  'pad-lef:15': {
-    paddingLeft: 7.5 * ratio
-  },
-  'pad-lef:16': {
+  'pad-lef:8': {
     paddingLeft: 8 * ratio
   },
-  'pad-lef:17': {
-    paddingLeft: 8.5 * ratio
-  },
-  'pad-lef:18': {
+  'pad-lef:9': {
     paddingLeft: 9 * ratio
   },
+  'pad-lef:10': {
+    paddingLeft: 10 * ratio
+  },
+  'pad-lef:11': {
+    paddingLeft: 11 * ratio
+  },
+  'pad-lef:12': {
+    paddingLeft: 12 * ratio
+  },
+  'pad-lef:13': {
+    paddingLeft: 13 * ratio
+  },
+  'pad-lef:14': {
+    paddingLeft: 14 * ratio
+  },
+  'pad-lef:15': {
+    paddingLeft: 15 * ratio
+  },
+  'pad-lef:16': {
+    paddingLeft: 16 * ratio
+  },
+  'pad-lef:17': {
+    paddingLeft: 17 * ratio
+  },
+  'pad-lef:18': {
+    paddingLeft: 18 * ratio
+  },
   'pad-lef:19': {
-    paddingLeft: 9.5 * ratio
+    paddingLeft: 19 * ratio
   },
   'pad-lef:20': {
-    paddingLeft: 10 * ratio
+    paddingLeft: 20 * ratio
   },
   'pad-rig': {
     paddingRight: 1 * ratio
@@ -579,64 +246,64 @@ export default StyleSheet.create({
     paddingRight: 0
   },
   'pad-rig:1': {
-    paddingRight: 0.5 * ratio
-  },
-  'pad-rig:2': {
     paddingRight: 1 * ratio
   },
-  'pad-rig:3': {
-    paddingRight: 1.5 * ratio
-  },
-  'pad-rig:4': {
+  'pad-rig:2': {
     paddingRight: 2 * ratio
   },
-  'pad-rig:5': {
-    paddingRight: 2.5 * ratio
-  },
-  'pad-rig:6': {
+  'pad-rig:3': {
     paddingRight: 3 * ratio
   },
-  'pad-rig:7': {
-    paddingRight: 3.5 * ratio
-  },
-  'pad-rig:8': {
+  'pad-rig:4': {
     paddingRight: 4 * ratio
   },
-  'pad-rig:9': {
-    paddingRight: 4.5 * ratio
-  },
-  'pad-rig:10': {
+  'pad-rig:5': {
     paddingRight: 5 * ratio
   },
-  'pad-rig:11': {
-    paddingRight: 5.5 * ratio
-  },
-  'pad-rig:12': {
+  'pad-rig:6': {
     paddingRight: 6 * ratio
   },
-  'pad-rig:13': {
-    paddingRight: 6.5 * ratio
-  },
-  'pad-rig:14': {
+  'pad-rig:7': {
     paddingRight: 7 * ratio
   },
-  'pad-rig:15': {
-    paddingRight: 7.5 * ratio
-  },
-  'pad-rig:16': {
+  'pad-rig:8': {
     paddingRight: 8 * ratio
   },
-  'pad-rig:17': {
-    paddingRight: 8.5 * ratio
-  },
-  'pad-rig:18': {
+  'pad-rig:9': {
     paddingRight: 9 * ratio
   },
+  'pad-rig:10': {
+    paddingRight: 10 * ratio
+  },
+  'pad-rig:11': {
+    paddingRight: 11 * ratio
+  },
+  'pad-rig:12': {
+    paddingRight: 12 * ratio
+  },
+  'pad-rig:13': {
+    paddingRight: 13 * ratio
+  },
+  'pad-rig:14': {
+    paddingRight: 14 * ratio
+  },
+  'pad-rig:15': {
+    paddingRight: 15 * ratio
+  },
+  'pad-rig:16': {
+    paddingRight: 16 * ratio
+  },
+  'pad-rig:17': {
+    paddingRight: 17 * ratio
+  },
+  'pad-rig:18': {
+    paddingRight: 18 * ratio
+  },
   'pad-rig:19': {
-    paddingRight: 9.5 * ratio
+    paddingRight: 19 * ratio
   },
   'pad-rig:20': {
-    paddingRight: 10 * ratio
+    paddingRight: 20 * ratio
   },
   'pad-bot': {
     paddingBottom: 1 * ratio
@@ -645,64 +312,64 @@ export default StyleSheet.create({
     paddingBottom: 0
   },
   'pad-bot:1': {
-    paddingBottom: 0.5 * ratio
-  },
-  'pad-bot:2': {
     paddingBottom: 1 * ratio
   },
-  'pad-bot:3': {
-    paddingBottom: 1.5 * ratio
-  },
-  'pad-bot:4': {
+  'pad-bot:2': {
     paddingBottom: 2 * ratio
   },
-  'pad-bot:5': {
-    paddingBottom: 2.5 * ratio
-  },
-  'pad-bot:6': {
+  'pad-bot:3': {
     paddingBottom: 3 * ratio
   },
-  'pad-bot:7': {
-    paddingBottom: 3.5 * ratio
-  },
-  'pad-bot:8': {
+  'pad-bot:4': {
     paddingBottom: 4 * ratio
   },
-  'pad-bot:9': {
-    paddingBottom: 4.5 * ratio
-  },
-  'pad-bot:10': {
+  'pad-bot:5': {
     paddingBottom: 5 * ratio
   },
-  'pad-bot:11': {
-    paddingBottom: 5.5 * ratio
-  },
-  'pad-bot:12': {
+  'pad-bot:6': {
     paddingBottom: 6 * ratio
   },
-  'pad-bot:13': {
-    paddingBottom: 6.5 * ratio
-  },
-  'pad-bot:14': {
+  'pad-bot:7': {
     paddingBottom: 7 * ratio
   },
-  'pad-bot:15': {
-    paddingBottom: 7.5 * ratio
-  },
-  'pad-bot:16': {
+  'pad-bot:8': {
     paddingBottom: 8 * ratio
   },
-  'pad-bot:17': {
-    paddingBottom: 8.5 * ratio
-  },
-  'pad-bot:18': {
+  'pad-bot:9': {
     paddingBottom: 9 * ratio
   },
+  'pad-bot:10': {
+    paddingBottom: 10 * ratio
+  },
+  'pad-bot:11': {
+    paddingBottom: 11 * ratio
+  },
+  'pad-bot:12': {
+    paddingBottom: 12 * ratio
+  },
+  'pad-bot:13': {
+    paddingBottom: 13 * ratio
+  },
+  'pad-bot:14': {
+    paddingBottom: 14 * ratio
+  },
+  'pad-bot:15': {
+    paddingBottom: 15 * ratio
+  },
+  'pad-bot:16': {
+    paddingBottom: 16 * ratio
+  },
+  'pad-bot:17': {
+    paddingBottom: 17 * ratio
+  },
+  'pad-bot:18': {
+    paddingBottom: 18 * ratio
+  },
   'pad-bot:19': {
-    paddingBottom: 9.5 * ratio
+    paddingBottom: 19 * ratio
   },
   'pad-bot:20': {
-    paddingBottom: 10 * ratio
+    paddingBottom: 20 * ratio
   },
   'width:0': {
     width: 0
@@ -1307,6 +974,12 @@ export default StyleSheet.create({
   'width:1000': {
     width: 1000 * ratio
   },
+  'width:100%': {
+    width: 100 * ratio
+  },
+  'width:100vh': {
+    width: 100 * ratio
+  },
   'height:0': {
     height: 0
   },
@@ -1909,6 +1582,12 @@ export default StyleSheet.create({
   },
   'height:1000': {
     height: 1000 * ratio
+  },
+  'height:100%': {
+    height: 100 * ratio
+  },
+  'height:100vh': {
+    height: 100 * ratio
   },
   'fit': {
     flex: 1

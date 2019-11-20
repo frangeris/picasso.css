@@ -1,30 +1,17 @@
-.space(@attr, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
+#space(@attr, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
   &\:@{i} when (@x = undef) and (@y = undef) {
-    @{attr}: (@i * 0.5em);
+    @{attr}: (@i * 1em);
   }
 
   &\:@{i} when not (@x = undef) {
-    @{attr}: (@i * 0.5em) @x;
+    @{attr}: (@i * 1em) @x;
   }
 
   &\:@{i} when not (@y = undef) {
-    @{attr}: @y (@i * 0.5em);
+    @{attr}: @y (@i * 1em);
   }
 
-  .space(@attr, @x, @y, @n, (@i + 1));
-}
-
-.size(@prefix, @attr, @n: 200, @i: 0) when (@i =< @n) {
-  @count: (@i * 5);
-  .@{prefix}\:@{count} {
-    @{attr}: unit(@count, px);
-  }
-  .size(@prefix, @attr, @n, (@i + 1));
-}
-
-.column-width(@n) {
-  width: @column-width * @n -
-    (@column-margin * (@total-columns - @n) / @total-columns);
+  #space(@attr, @x, @y, @n, (@i + 1));
 }
 
 #increment(@prop, @nested: false, @n: 10, @i: 0) when (@i =< @n) {
@@ -37,4 +24,17 @@
   }
 
   #increment(@prop, @nested, @n, (@i + 1));
+}
+
+#value(@attr, @prefix, @n: 200, @i: 0) when (@i =< @n) {
+  @pixels: (@i * 5);
+  &\:@{pixels} {
+    @{attr}: unit(@pixels, @prefix);
+  }
+  #value(@attr, @prefix, @n, (@i + 1));
+}
+
+.column-width(@n) {
+  width: @column-width * @n -
+    (@column-margin * (@total-columns - @n) / @total-columns);
 }

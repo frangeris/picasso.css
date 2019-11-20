@@ -1,26 +1,36 @@
 .width {
-  &\:fit {
-    width: 100%
+  & {
+    #value(width, px);
   }
-  &\:full {
-    width: 100vh
+  &\:100\% {
+    width: 100%;
+  }
+  &\:100vh {
+    width: 100vh;
   }
 }
-.size(width, width);
 
 .height {
-  &\:fit {
-    height: 100%
+  & {
+    #value(height, px);
   }
-  &\:full {
-    height: 100vh
+  &\:100\% {
+    height: 100%;
+  }
+  &\:100vh {
+    height: 100vh;
   }
 }
-.size(height, height);
 
-.size(min-width, min-width);
-.size(min-height, min-height);
-.size(top, top);
-.size(right, right);
-.size(bottom, bottom);
-.size(left, left);
+.min-width {
+  & {
+    #value(min-width, px);
+  }
+}
+
+// .size(min-width, min-width);
+// .size(min-height, min-height);
+// .size(top, top);
+// .size(right, right);
+// .size(bottom, bottom);
+// .size(left, left);
