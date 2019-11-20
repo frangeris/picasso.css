@@ -5,8 +5,7 @@
   "style": "/dist/build.min.css",
   "main": "/dist/native.js",
   "scripts": {
-    "build": "lessc ./src/main.less ./dist/build.css && cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8",
-    "postbuild": "node ./src/compile.js"
+    "build": "lessc ./src/main.less ./dist/build.css && cleancss ./dist/build.css -o ./dist/build.min.css --compatibility ie8"
   },
   "repository": {
     "type": "git",
