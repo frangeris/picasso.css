@@ -1,38 +1,44 @@
-.pad {
+.padding {
   padding: @padding;
   #space(padding);
-}
 
-.pad-top {
-  padding-top: @padding;
-  #space(padding-top);
-}
+  &\:auto {
+    padding: 0 auto;
+  }
 
-.pad-lef {
-  padding-left: @padding;
-  #space(padding-left);
-}
+  &\:top {
+    padding-top: @padding;
+    #space(padding-top);
+  }
 
-.pad-rig {
-  padding-right: @padding;
-  #space(padding-right);
-}
+  &\:left {
+    padding-left: @padding;
+    #space(padding-left);
+  }
 
-.pad-bot {
-  padding-bottom: @padding;
-  #space(padding-bottom);
-}
+  &\:right {
+    padding-right: @padding;
+    #space(padding-right);
+  }
 
-.pad-y {
-  #space(padding-top, undef, undef);
-}
-.pad-y {
-  #space(padding-bottom, undef, undef);
-}
+  &\:bottom {
+    padding-bottom: @padding;
+    #space(padding-bottom);
+  }
 
-.pad-x {
-  #space(padding-right, undef, undef);
-}
-.pad-x {
-  #space(padding-left, undef, undef);
+  &\:y {
+    #space(padding-top, undef, undef);
+  }
+
+  &\:y {
+    #space(padding-bottom, undef, undef);
+  }
+
+  &\:x {
+    #space(padding-right, undef, undef);
+  }
+
+  &\:x {
+    #space(padding-left, undef, undef);
+  }
 }
