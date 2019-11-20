@@ -1,142 +1,45 @@
 #increment(flex);
-
 .flex {
   display: flex;
-
   &\:initial {
     flex: initial;
   }
-
   &\:auto {
     flex: auto;
   }
-
   &\:none {
     flex: none;
   }
-
   &\:grow {
     #increment(flex-grow, true);
   }
-
   &\:shrink {
     #increment(flex-shrink, true);
   }
-
   &\:no-grow {
     flex-grow: 0;
   }
-
   &\:no-shrink {
     flex-shrink: 0;
   }
-
-  & > .row {
-    display: flex;
-    flex-direction: row;
-    &\:reverse {
-      flex-direction: row-reverse;
+  &\:direction {
+    &\:row {
+      flex-direction: row;
+      &\:reverse {
+        flex-direction: row-reverse;
+      }
     }
-  }
-}
-
-.inline {
-  &\:flex {
-    display: inline-flex;
-  }
-}
-
-.fit {
-  flex: 1;
-}
-
-.wrap {
-  flex-wrap: wrap;
-  &\:reverse {
-    flex-wrap: wrap-reverse;
-  }
-}
-
-.row {
-  flex-direction: row;
-  &\:reverse {
-    flex-direction: row-reverse;
-  }
-}
-
-.column {
-  flex-direction: column;
-  &\:reverse {
-    flex-direction: column-reverse;
-  }
-}
-
-.no-wrap {
-  flex-wrap: no-wrap;
-}
-
-.align {
-  &\:stretch {
-    align-items: stretch;
-  }
-
-  &\:start {
-    align-items: flex-start;
-  }
-
-  &\:center {
-    align-items: center;
-  }
-
-  &\:end {
-    align-items: flex-end;
-  }
-
-  &\:baseline {
-    align-items: baseline;
-  }
-}
-
-.self {
-  &\:auto {
-    align-self: auto;
-  }
-
-  &\:start {
-    align-self: flex-start;
-  }
-
-  &\:center {
-    align-self: center;
-  }
-
-  &\:end {
-    align-self: flex-end;
-  }
-
-  &\:stretch {
-    align-self: stretch;
-  }
-}
-
-.justify {
-  &\:start {
-    justify-content: flex-start;
-  }
-
-  &\:center {
-    justify-content: center;
-  }
-
-  &\:end {
-    justify-content: flex-end;
-  }
-
-  &\:between {
-    justify-content: space-between;
-  }
-
-  &\:around {
-    justify-content: space-around;
+    &\:column {
+      flex-direction: column;
+      &\:reverse {
+        flex-direction: column-reverse;
+      }
+    }
+    &\:wrap {
+      flex-wrap: wrap;
+      &\:reverse {
+        flex-wrap: wrap-reverse;
+      }
+    }
   }
 }

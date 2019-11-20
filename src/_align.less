@@ -1,41 +1,82 @@
 .align {
-  &\:baseline {
-    vertical-align: baseline;
+  &\:vertical {
+    &\:baseline {
+      vertical-align: baseline;
+    }
+
+    &\:bottom {
+      vertical-align: bottom;
+    }
+
+    &\:inherit {
+      vertical-align: inherit;
+    }
+
+    &\:middle {
+      vertical-align: middle;
+    }
+
+    &\:sub {
+      vertical-align: sub;
+    }
+
+    &\:super {
+      vertical-align: super;
+    }
+
+    &\:text-bottom {
+      vertical-align: text-bottom;
+    }
+
+    &\:text-top {
+      vertical-align: text-top;
+    }
+
+    &\:top {
+      vertical-align: top;
+    }
+
+    &\:unset {
+      vertical-align: unset;
+    }
+  }
+  &\:self {
+    &\:auto {
+      align-self: auto;
+    }
+    &\:start {
+      align-self: flex-start;
+    }
+    &\:center {
+      align-self: center;
+    }
+    &\:end {
+      align-self: flex-end;
+    }
+    &\:stretch {
+      align-self: stretch;
+    }
+  }
+}
+
+.justify {
+  &\:start {
+    justify-content: flex-start;
   }
 
-  &\:bottom {
-    vertical-align: bottom;
+  &\:center {
+    justify-content: center;
   }
 
-  &\:inherit {
-    vertical-align: inherit;
+  &\:end {
+    justify-content: flex-end;
   }
 
-  &\:middle {
-    vertical-align: middle;
+  &\:between {
+    justify-content: space-between;
   }
 
-  &\:sub {
-    vertical-align: sub;
-  }
-
-  &\:super {
-    vertical-align: super;
-  }
-
-  &\:text-bottom {
-    vertical-align: text-bottom;
-  }
-
-  &\:text-top {
-    vertical-align: text-top;
-  }
-
-  &\:top {
-    vertical-align: top;
-  }
-
-  &\:unset {
-    vertical-align: unset;
+  &\:around {
+    justify-content: space-around;
   }
 }
