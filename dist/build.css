@@ -256,10 +256,10 @@
 .flex\:direction\:column\:reverse {
   flex-direction: column-reverse;
 }
-.flex\:direction\:wrap {
+.flex\:wrap {
   flex-wrap: wrap;
 }
-.flex\:direction\:wrap\:reverse {
+.flex\:wrap\:reverse {
   flex-wrap: wrap-reverse;
 }
 .float\:right {

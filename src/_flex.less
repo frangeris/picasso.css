@@ -1,4 +1,5 @@
 #increment(flex);
+
 .flex {
   display: flex;
   &\:initial {
@@ -35,11 +36,15 @@
         flex-direction: column-reverse;
       }
     }
-    &\:wrap {
-      flex-wrap: wrap;
-      &\:reverse {
-        flex-wrap: wrap-reverse;
-      }
+  }
+  &\:wrap {
+    flex-wrap: wrap;
+    &\:reverse {
+      flex-wrap: wrap-reverse;
     }
   }
 }
+
+// [class^="flex:"] {
+//   &:extend(.flex);
+// }
