@@ -1,5 +1,4 @@
 .padding {
-  padding: @padding;
   #space(padding);
 
   &\:auto {
@@ -7,38 +6,34 @@
   }
 
   &\:top {
-    padding-top: @padding;
     #space(padding-top);
   }
 
   &\:left {
-    padding-left: @padding;
     #space(padding-left);
   }
 
   &\:right {
-    padding-right: @padding;
     #space(padding-right);
   }
 
   &\:bottom {
-    padding-bottom: @padding;
     #space(padding-bottom);
   }
 
   &\:y {
-    #space(padding-top, undef, undef);
+    #space(padding-top);
   }
 
   &\:y {
-    #space(padding-bottom, undef, undef);
+    #space(padding-bottom);
   }
 
   &\:x {
-    #space(padding-right, undef, undef);
+    #space(padding-right);
   }
 
   &\:x {
-    #space(padding-left, undef, undef);
+    #space(padding-left);
   }
 }

@@ -1,5 +1,4 @@
 .margin {
-  margin: @margin;
   #space(margin);
 
   &\:auto {
@@ -7,38 +6,34 @@
   }
 
   &\:top {
-    margin-top: @margin;
     #space(margin-top);
   }
 
   &\:left {
-    margin-left: @margin;
     #space(margin-left);
   }
 
   &\:right {
-    margin-right: @margin;
     #space(margin-right);
   }
 
   &\:bottom {
-    margin-bottom: @margin;
     #space(margin-bottom);
   }
 
   &\:y {
-    #space(margin-top, undef, undef);
+    #space(margin-top);
   }
 
   &\:y {
-    #space(margin-bottom, undef, undef);
+    #space(margin-bottom);
   }
 
   &\:x {
-    #space(margin-right, undef, undef);
+    #space(margin-right);
   }
 
   &\:x {
-    #space(margin-left, undef, undef);
+    #space(margin-left);
   }
 }

@@ -1,17 +1,17 @@
-#space(@attr, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
+#space(@attr, @seq: 1em, @x: undef, @y: undef, @n: 20, @i: 0) when (@i =< @n) {
   &\:@{i} when (@x = undef) and (@y = undef) {
-    @{attr}: (@i * 1em);
+    @{attr}: (@i * @seq);
   }
 
   &\:@{i} when not (@x = undef) {
-    @{attr}: (@i * 1em) @x;
+    @{attr}: (@i * @seq) @x;
   }
 
   &\:@{i} when not (@y = undef) {
-    @{attr}: @y (@i * 1em);
+    @{attr}: @y (@i * @seq);
   }
 
-  #space(@attr, @x, @y, @n, (@i + 1));
+  #space(@attr, @seq, @x, @y, @n, (@i + 1));
 }
 
 #increment(@prop, @nested: false, @n: 10, @i: 0) when (@i =< @n) {
