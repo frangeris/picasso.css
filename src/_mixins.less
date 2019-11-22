@@ -26,12 +26,21 @@
   #increment(@prop, @nested, @n, (@i + 1));
 }
 
-#value(@attr, @prefix, @seq: 5, @n: 200, @i: 0) when (@i =< @n) {
-  @pixels: (@i * @seq);
-  &\:@{pixels} {
-    @{attr}: unit(@pixels, @prefix);
+#value(@attr, @type, @seq: 5, @n: 200, @i: 0) when (@i =< @n) {
+  @value: (@i * @seq);
+  &\:@{value} {
+    @{attr}: unit(@value, @type);
   }
-  #value(@attr, @prefix, @seq, @n, (@i + 1));
+  #value(@attr, @type, @seq, @n, (@i + 1));
+}
+
+#decimal (@attr, @type: em, @n: 10, @i: 0) when (@i =< @n) {
+  @label: ~"\.@{i}";
+  @value: @i / 10;
+  &\:@{label} {
+    @{attr}: unit(@value, @type);
+  }
+  #decimal(@attr, @type: em, @n, (@i + 1));
 }
 
 .column-width(@n) {
