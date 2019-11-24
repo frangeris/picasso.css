@@ -1,3 +1,108 @@
+.align\:vertical\:baseline {
+  vertical-align: baseline;
+}
+.align\:vertical\:bottom {
+  vertical-align: bottom;
+}
+.align\:vertical\:inherit {
+  vertical-align: inherit;
+}
+.align\:vertical\:middle {
+  vertical-align: middle;
+}
+.align\:vertical\:sub {
+  vertical-align: sub;
+}
+.align\:vertical\:super {
+  vertical-align: super;
+}
+.align\:vertical\:text-bottom {
+  vertical-align: text-bottom;
+}
+.align\:vertical\:text-top {
+  vertical-align: text-top;
+}
+.align\:vertical\:top {
+  vertical-align: top;
+}
+.align\:vertical\:unset {
+  vertical-align: unset;
+}
+.align\:self\:auto {
+  align-self: auto;
+}
+.align\:self\:start {
+  align-self: flex-start;
+}
+.align\:self\:center {
+  align-self: center;
+}
+.align\:self\:end {
+  align-self: flex-end;
+}
+.align\:self\:stretch {
+  align-self: stretch;
+}
+.align\:items\:baseline {
+  align-items: baseline;
+}
+.align\:items\:center {
+  align-items: center;
+}
+.align\:items\:end {
+  align-items: end;
+}
+.align\:items\:flex-end {
+  align-items: flex-end;
+}
+.align\:items\:inherit {
+  align-items: inherit;
+}
+.align\:items\:initial {
+  align-items: initial;
+}
+.align\:items\:left {
+  align-items: left;
+}
+.align\:items\:normal {
+  align-items: normal;
+}
+.align\:items\:right {
+  align-items: right;
+}
+.align\:items\:safe {
+  align-items: safe;
+}
+.align\:items\:self-end {
+  align-items: self-end;
+}
+.align\:items\:self-start {
+  align-items: self-start;
+}
+.align\:items\:self-stretch {
+  align-items: self-stretch;
+}
+.align\:items\:unsafe {
+  align-items: unsafe;
+}
+.align\:items\:unset {
+  align-items: unset;
+}
+.justify\:start {
+  justify-content: flex-start;
+}
+.justify\:center {
+  justify-content: center;
+}
+.justify\:end {
+  justify-content: flex-end;
+}
+.justify\:between {
+  justify-content: space-between;
+}
+.justify\:around {
+  justify-content: space-around;
+}
 .cursor\:alias:hover {
   cursor: alias;
 }
