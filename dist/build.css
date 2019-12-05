@@ -88,19 +88,19 @@
 .align\:items\:unset {
   align-items: unset;
 }
-.justify\:start {
+.justify\:content\:start {
   justify-content: flex-start;
 }
-.justify\:center {
+.justify\:content\:center {
   justify-content: center;
 }
-.justify\:end {
+.justify\:content\:end {
   justify-content: flex-end;
 }
-.justify\:between {
+.justify\:content\:between {
   justify-content: space-between;
 }
-.justify\:around {
+.justify\:content\:around {
   justify-content: space-around;
 }
 .cursor\:alias:hover {
