@@ -1,20 +1,27 @@
-.static {
-  position: static;
-}
-.fixed {
-  position: fixed;
-}
-.absolute {
-  position: absolute;
+.position {
+  &\:static {
+    position: static;
+  }
+
+  &\:fixed {
+    position: fixed;
+  }
+
+  &\:absolute {
+    position: absolute;
+  }
+
+  &\:relative {
+    position: relative;
+  }
+  
+  &\:sticky {
+    position: sticky;
+  }
 }
 
-.relative {
-  position: relative;
-}
 
-.sticky {
-  position: sticky;
-}
+
 
 .top {
   top: 0;
@@ -36,44 +43,25 @@
   #space(left);
 }
 
-.vertical {
-  top: 0;
-  bottom: 0;
-}
-
-.horizontal {
-  right: 0;
-  left: 0;
-}
-
-.center {
-  margin: 0 auto;
-}
-
-.self-center {
-  margin: 0 auto;
-  right: 0;
-  left: 0;
-}
-
 .self {
   margin: 0 auto;
   &\:center {
     right: 0;
     left: 0;
   }
+
+  &\:central {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:\auto {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
 }
 
-.central {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.auto {
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
-}

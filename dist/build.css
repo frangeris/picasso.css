@@ -2083,19 +2083,19 @@
 .padding\:x\:20 {
   padding-left: 20em;
 }
-.static {
+.position\:static {
   position: static;
 }
-.fixed {
+.position\:fixed {
   position: fixed;
 }
-.absolute {
+.position\:absolute {
   position: absolute;
 }
-.relative {
+.position\:relative {
   position: relative;
 }
-.sticky {
+.position\:sticky {
   position: sticky;
 }
 .top {
@@ -2362,22 +2362,6 @@
 .left\:20 {
   left: 20em;
 }
-.vertical {
-  top: 0;
-  bottom: 0;
-}
-.horizontal {
-  right: 0;
-  left: 0;
-}
-.center {
-  margin: 0 auto;
-}
-.self-center {
-  margin: 0 auto;
-  right: 0;
-  left: 0;
-}
 .self {
   margin: 0 auto;
 }
@@ -2385,13 +2369,13 @@
   right: 0;
   left: 0;
 }
-.central {
+.self\:central {
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.auto {
+.self:\auto {
   top: auto;
   right: auto;
   bottom: auto;
@@ -4918,6 +4902,21 @@
 }
 .z\:5 {
   z-index: 5;
+}
+.z\:6 {
+  z-index: 6;
+}
+.z\:7 {
+  z-index: 7;
+}
+.z\:8 {
+  z-index: 8;
+}
+.z\:9 {
+  z-index: 9;
+}
+.z\:10 {
+  z-index: 10;
 }
 .z\:backward {
   z-index: -1;
