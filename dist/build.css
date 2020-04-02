@@ -718,6 +718,39 @@
 .margin\:20 {
   margin: 20em;
 }
+.margin\:\.0 {
+  margin: 0em;
+}
+.margin\:\.1 {
+  margin: 0.1em;
+}
+.margin\:\.2 {
+  margin: 0.2em;
+}
+.margin\:\.3 {
+  margin: 0.3em;
+}
+.margin\:\.4 {
+  margin: 0.4em;
+}
+.margin\:\.5 {
+  margin: 0.5em;
+}
+.margin\:\.6 {
+  margin: 0.6em;
+}
+.margin\:\.7 {
+  margin: 0.7em;
+}
+.margin\:\.8 {
+  margin: 0.8em;
+}
+.margin\:\.9 {
+  margin: 0.9em;
+}
+.margin\:\.10 {
+  margin: 1em;
+}
 .margin\:auto {
   margin: 0 auto;
 }
@@ -1576,6 +1609,39 @@
 .padding\:20 {
   padding: 20em;
 }
+.padding\:\.0 {
+  padding: 0em;
+}
+.padding\:\.1 {
+  padding: 0.1em;
+}
+.padding\:\.2 {
+  padding: 0.2em;
+}
+.padding\:\.3 {
+  padding: 0.3em;
+}
+.padding\:\.4 {
+  padding: 0.4em;
+}
+.padding\:\.5 {
+  padding: 0.5em;
+}
+.padding\:\.6 {
+  padding: 0.6em;
+}
+.padding\:\.7 {
+  padding: 0.7em;
+}
+.padding\:\.8 {
+  padding: 0.8em;
+}
+.padding\:\.9 {
+  padding: 0.9em;
+}
+.padding\:\.10 {
+  padding: 1em;
+}
 .padding\:auto {
   padding: 0 auto;
 }
@@ -1642,6 +1708,39 @@
 .padding\:top\:20 {
   padding-top: 20em;
 }
+.padding\:top\:\.0 {
+  padding-top: 0em;
+}
+.padding\:top\:\.1 {
+  padding-top: 0.1em;
+}
+.padding\:top\:\.2 {
+  padding-top: 0.2em;
+}
+.padding\:top\:\.3 {
+  padding-top: 0.3em;
+}
+.padding\:top\:\.4 {
+  padding-top: 0.4em;
+}
+.padding\:top\:\.5 {
+  padding-top: 0.5em;
+}
+.padding\:top\:\.6 {
+  padding-top: 0.6em;
+}
+.padding\:top\:\.7 {
+  padding-top: 0.7em;
+}
+.padding\:top\:\.8 {
+  padding-top: 0.8em;
+}
+.padding\:top\:\.9 {
+  padding-top: 0.9em;
+}
+.padding\:top\:\.10 {
+  padding-top: 1em;
+}
 .padding\:left\:0 {
   padding-left: 0em;
 }
@@ -1704,6 +1803,39 @@
 }
 .padding\:left\:20 {
   padding-left: 20em;
+}
+.padding\:left\:\.0 {
+  padding-left: 0em;
+}
+.padding\:left\:\.1 {
+  padding-left: 0.1em;
+}
+.padding\:left\:\.2 {
+  padding-left: 0.2em;
+}
+.padding\:left\:\.3 {
+  padding-left: 0.3em;
+}
+.padding\:left\:\.4 {
+  padding-left: 0.4em;
+}
+.padding\:left\:\.5 {
+  padding-left: 0.5em;
+}
+.padding\:left\:\.6 {
+  padding-left: 0.6em;
+}
+.padding\:left\:\.7 {
+  padding-left: 0.7em;
+}
+.padding\:left\:\.8 {
+  padding-left: 0.8em;
+}
+.padding\:left\:\.9 {
+  padding-left: 0.9em;
+}
+.padding\:left\:\.10 {
+  padding-left: 1em;
 }
 .padding\:right\:0 {
   padding-right: 0em;
@@ -1768,6 +1900,39 @@
 .padding\:right\:20 {
   padding-right: 20em;
 }
+.padding\:right\:\.0 {
+  padding-right: 0em;
+}
+.padding\:right\:\.1 {
+  padding-right: 0.1em;
+}
+.padding\:right\:\.2 {
+  padding-right: 0.2em;
+}
+.padding\:right\:\.3 {
+  padding-right: 0.3em;
+}
+.padding\:right\:\.4 {
+  padding-right: 0.4em;
+}
+.padding\:right\:\.5 {
+  padding-right: 0.5em;
+}
+.padding\:right\:\.6 {
+  padding-right: 0.6em;
+}
+.padding\:right\:\.7 {
+  padding-right: 0.7em;
+}
+.padding\:right\:\.8 {
+  padding-right: 0.8em;
+}
+.padding\:right\:\.9 {
+  padding-right: 0.9em;
+}
+.padding\:right\:\.10 {
+  padding-right: 1em;
+}
 .padding\:bottom\:0 {
   padding-bottom: 0em;
 }
@@ -1830,6 +1995,39 @@
 }
 .padding\:bottom\:20 {
   padding-bottom: 20em;
+}
+.padding\:bottom\:\.0 {
+  padding-bottom: 0em;
+}
+.padding\:bottom\:\.1 {
+  padding-bottom: 0.1em;
+}
+.padding\:bottom\:\.2 {
+  padding-bottom: 0.2em;
+}
+.padding\:bottom\:\.3 {
+  padding-bottom: 0.3em;
+}
+.padding\:bottom\:\.4 {
+  padding-bottom: 0.4em;
+}
+.padding\:bottom\:\.5 {
+  padding-bottom: 0.5em;
+}
+.padding\:bottom\:\.6 {
+  padding-bottom: 0.6em;
+}
+.padding\:bottom\:\.7 {
+  padding-bottom: 0.7em;
+}
+.padding\:bottom\:\.8 {
+  padding-bottom: 0.8em;
+}
+.padding\:bottom\:\.9 {
+  padding-bottom: 0.9em;
+}
+.padding\:bottom\:\.10 {
+  padding-bottom: 1em;
 }
 .padding\:y\:0 {
   padding-top: 0em;
@@ -1894,6 +2092,39 @@
 .padding\:y\:20 {
   padding-top: 20em;
 }
+.padding\:y\:\.0 {
+  padding-top: 0em;
+}
+.padding\:y\:\.1 {
+  padding-top: 0.1em;
+}
+.padding\:y\:\.2 {
+  padding-top: 0.2em;
+}
+.padding\:y\:\.3 {
+  padding-top: 0.3em;
+}
+.padding\:y\:\.4 {
+  padding-top: 0.4em;
+}
+.padding\:y\:\.5 {
+  padding-top: 0.5em;
+}
+.padding\:y\:\.6 {
+  padding-top: 0.6em;
+}
+.padding\:y\:\.7 {
+  padding-top: 0.7em;
+}
+.padding\:y\:\.8 {
+  padding-top: 0.8em;
+}
+.padding\:y\:\.9 {
+  padding-top: 0.9em;
+}
+.padding\:y\:\.10 {
+  padding-top: 1em;
+}
 .padding\:y\:0 {
   padding-bottom: 0em;
 }
@@ -1956,6 +2187,39 @@
 }
 .padding\:y\:20 {
   padding-bottom: 20em;
+}
+.padding\:y\:\.0 {
+  padding-bottom: 0em;
+}
+.padding\:y\:\.1 {
+  padding-bottom: 0.1em;
+}
+.padding\:y\:\.2 {
+  padding-bottom: 0.2em;
+}
+.padding\:y\:\.3 {
+  padding-bottom: 0.3em;
+}
+.padding\:y\:\.4 {
+  padding-bottom: 0.4em;
+}
+.padding\:y\:\.5 {
+  padding-bottom: 0.5em;
+}
+.padding\:y\:\.6 {
+  padding-bottom: 0.6em;
+}
+.padding\:y\:\.7 {
+  padding-bottom: 0.7em;
+}
+.padding\:y\:\.8 {
+  padding-bottom: 0.8em;
+}
+.padding\:y\:\.9 {
+  padding-bottom: 0.9em;
+}
+.padding\:y\:\.10 {
+  padding-bottom: 1em;
 }
 .padding\:x\:0 {
   padding-right: 0em;
@@ -2020,6 +2284,39 @@
 .padding\:x\:20 {
   padding-right: 20em;
 }
+.padding\:x\:\.0 {
+  padding-right: 0em;
+}
+.padding\:x\:\.1 {
+  padding-right: 0.1em;
+}
+.padding\:x\:\.2 {
+  padding-right: 0.2em;
+}
+.padding\:x\:\.3 {
+  padding-right: 0.3em;
+}
+.padding\:x\:\.4 {
+  padding-right: 0.4em;
+}
+.padding\:x\:\.5 {
+  padding-right: 0.5em;
+}
+.padding\:x\:\.6 {
+  padding-right: 0.6em;
+}
+.padding\:x\:\.7 {
+  padding-right: 0.7em;
+}
+.padding\:x\:\.8 {
+  padding-right: 0.8em;
+}
+.padding\:x\:\.9 {
+  padding-right: 0.9em;
+}
+.padding\:x\:\.10 {
+  padding-right: 1em;
+}
 .padding\:x\:0 {
   padding-left: 0em;
 }
@@ -2082,6 +2379,39 @@
 }
 .padding\:x\:20 {
   padding-left: 20em;
+}
+.padding\:x\:\.0 {
+  padding-left: 0em;
+}
+.padding\:x\:\.1 {
+  padding-left: 0.1em;
+}
+.padding\:x\:\.2 {
+  padding-left: 0.2em;
+}
+.padding\:x\:\.3 {
+  padding-left: 0.3em;
+}
+.padding\:x\:\.4 {
+  padding-left: 0.4em;
+}
+.padding\:x\:\.5 {
+  padding-left: 0.5em;
+}
+.padding\:x\:\.6 {
+  padding-left: 0.6em;
+}
+.padding\:x\:\.7 {
+  padding-left: 0.7em;
+}
+.padding\:x\:\.8 {
+  padding-left: 0.8em;
+}
+.padding\:x\:\.9 {
+  padding-left: 0.9em;
+}
+.padding\:x\:\.10 {
+  padding-left: 1em;
 }
 .position\:static {
   position: static;

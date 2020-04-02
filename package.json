@@ -1,6 +1,6 @@
 {
   "name": "picasso.css",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "CSS helpers",
   "style": "/dist/build.min.css",
   "main": "/dist/native.js",
