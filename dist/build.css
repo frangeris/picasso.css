@@ -103,6 +103,15 @@
 .justify\:content\:around {
   justify-content: space-around;
 }
+.color\:aliceblue {
+  color: aliceblue;
+}
+.color\:antiquewhite {
+  color: antiquewhite;
+}
+.color\:crimson {
+  color: crimson;
+}
 .cursor\:alias:hover {
   cursor: alias;
 }
